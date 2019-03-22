@@ -1,7 +1,7 @@
-/*CREATE DATABASE burgers_db;*/
-USE burgers_db;
-
-
+### Schema
+DROP DATABASE IF EXISTS burgers_bd;
+CREATE DATABASE burgers_bd;
+USE burgers_bd;
 CREATE TABLE burgers
 (
 	id int NOT NULL AUTO_INCREMENT,

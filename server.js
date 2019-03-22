@@ -23,14 +23,14 @@ app.set('view engine', 'handlebars');
 
 
 // REQUIRE THIS WHEN YOU HAVE EVERYTHING SET UP
-var routes = require('./controllers/burgers_controller.js');
+var routes = require('./controllers/burger_controller.js');
 app.use('/', routes);
 
 
 // var PORT = process.env.PORT || 3000
 // app.listen(PORT);
 
-app.set('port', (process.env.PORT || 3000));
+app.set('port', (process.env.PORT || 3060));
 
 app.listen(app.get('port'), function () {
 	console.log('App listening on PORT ', app.get('port'));
