@@ -3,51 +3,52 @@
 
 >burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).
 Before You Begin
->Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 
->Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
+Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
 
 Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
 
 >Your app will store every burger in a database, whether devoured or not.
 
-****Instructions**
+**Instructions**
 App Setup
 
-*Create a GitHub repo called burger and clone it to your computer.
+1. Create a GitHub repo called burger and clone it to your computer.
 
-*Make a package.json file by running npm init from the command line.
+2. Make a package.json file by running npm init from the command line.
 
-*Install the Express npm package: npm install express --save.
+3. Install the Express npm package: npm install express --save.
 
-*Create a server.js file.
+4. Create a server.js file.
 
-*Install the Handlebars npm package: npm install express-handlebars --save.
+5. Install the Handlebars npm package: npm install express-handlebars --save.
 
-*Install the method-override npm package: npm install method-override --save.
+6. Install the method-override npm package: npm install method-override --save.
 
-*Install the body-parser npm package: npm install body-parser --save.
+7. Install the body-parser npm package: npm install body-parser --save.
 
-*Install MySQL npm package: npm install mysql --save.
+8. Install MySQL npm package: npm install mysql --save.
 
-*Require the following npm packages inside of the server.js file:
+9.  Require the following npm packages inside of the server.js file:
 
 >express
 method-override
-body-parser
-DB Setup:
->Inside your burger directory, create a folder named db.
+>body-parser
 
-In the db folder, create a file named schema.sql. Write SQL queries this file that do the following:
+**DB Setup:**
+Inside your burger directory, create a folder named db.
 
-Create the burgers_db.
-Switch to or use the burgers_db.
-Create a burgers table with these fields:
-id: an auto incrementing int that serves as the primary key.
-burger_name: a string.
-devoured: a boolean.
-date: a TIMESTAMP.
-Still in the db folder, create a seeds.sql file. In this file, write insert queries to populate the burgers table with at least three entries.
+**In the db folder, create a file named schema.sql. Write SQL queries this file that do the following:**
+
+1. Create the burgers_db.
+2. Switch to or use the burgers_db.
+3. Create a burgers table with these fields:
+4. id: an auto incrementing int that serves as the primary key.
+5. burger_name: a string.
+6. devoured: a boolean.
+7. date: a TIMESTAMP.
+8. Still in the db folder, create a seeds.sql file. In this file, write insert queries to populate      the burgers table with at least three entries.
 
 Run the schema.sql and seeds.sql files into the mysql server from the command line
 
