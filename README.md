@@ -5,37 +5,38 @@
 Before You Begin
 >Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 
-Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
+>Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
 
 Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
 
-Your app will store every burger in a database, whether devoured or not.
+>Your app will store every burger in a database, whether devoured or not.
 
-Instructions
+****Instructions**
 App Setup
-Create a GitHub repo called burger and clone it to your computer.
 
-Make a package.json file by running npm init from the command line.
+*Create a GitHub repo called burger and clone it to your computer.
 
-Install the Express npm package: npm install express --save.
+*Make a package.json file by running npm init from the command line.
 
-Create a server.js file.
+*Install the Express npm package: npm install express --save.
 
-Install the Handlebars npm package: npm install express-handlebars --save.
+*Create a server.js file.
 
-Install the method-override npm package: npm install method-override --save.
+*Install the Handlebars npm package: npm install express-handlebars --save.
 
-Install the body-parser npm package: npm install body-parser --save.
+*Install the method-override npm package: npm install method-override --save.
 
-Install MySQL npm package: npm install mysql --save.
+*Install the body-parser npm package: npm install body-parser --save.
 
-Require the following npm packages inside of the server.js file:
+*Install MySQL npm package: npm install mysql --save.
 
-express
+*Require the following npm packages inside of the server.js file:
+
+>express
 method-override
 body-parser
 DB Setup:
-Inside your burger directory, create a folder named db.
+>Inside your burger directory, create a folder named db.
 
 In the db folder, create a file named schema.sql. Write SQL queries this file that do the following:
 
