@@ -8,7 +8,7 @@
 
 >Your app will store every burger in a database, whether devoured or not.
 
-**Instructions**
+**Instructions:** 
 App Setup
 
 1. Create a GitHub repo called burger and clone it to your computer.
@@ -29,9 +29,9 @@ App Setup
 
 9.  Require the following npm packages inside of the server.js file:
 
->express
->method-override
->body-parser
+**express**
+**method-override**
+**body-parser**
 
 **DB Setup:**
 Inside your burger directory, create a folder named db.
@@ -114,7 +114,7 @@ Create the router for the app, and export the router at the end of your file.
 All the recommended files and directories from the steps above should look like the following structure:
 
 
-".
+```.
 ├── config
 │   ├── connection.js
 │   └── orm.js
@@ -146,4 +146,4 @@ All the recommended files and directories from the steps above should look like 
 └── views
     ├── index.handlebars
     └── layouts
-        └── main.handlebars"
+        └── main.handlebars```
