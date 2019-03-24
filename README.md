@@ -29,9 +29,9 @@ App Setup
 
 9.  Require the following npm packages inside of the server.js file:
 
-**express**
-**method-override**
-**body-parser**
+>**express**
+>**method-override**
+>**body-parser**
 
 **DB Setup:**
 Inside your burger directory, create a folder named db.
