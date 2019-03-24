@@ -146,5 +146,5 @@ All the recommended files and directories from the steps above should look like 
 └── views
     ├── index.handlebars
     └── layouts
-        └── main.handlebars
+        └── main.handlebars.
         ```
